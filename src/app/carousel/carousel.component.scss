@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.l .bg, .bg, .bg > .c, .fg{
+
+    width: 100%;
+    height: 100%;
+}
+
+.l{
+
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.bg{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: top 1s;
+}
+
+
+.c1{
+
+    background: url('../../assets/images/class.jpg');
+    background-position: center; 
+    background-repeat: no-repeat;
+    
+}
+
+.c2{
+    background: url(../../assets/images/class.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.c3{
+    background: url(../../assets/images/class.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.c4{
+    background: url(../../assets/images/class.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.c5{
+    background: url(../../assets/images/class.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fg{
+
+    position: absolute;
+    top: 0;
+    left:0;
+    transition: top 1s;
+}
+
+.fg > .c{
+    width: 100%;
+    height: 200%;
+    position: relative;
+}
+
+
+.fg > .c > h1{
+
+    font-size:57px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    text-shadow: 2px 0 black, 2px 2px black, 2px 2px black, 0 2px black, 2px 0 black;
+    transform: translateY(50%);
+    letter-spacing: 2px;
+
+    
+}
+
+.i{
+
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    word-spacing: 10px;
+}
+
+.i > a{
+
+    background: #888888;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.i > a.active{
+    background: white;
+}
